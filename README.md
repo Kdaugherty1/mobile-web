@@ -1,1 +1,0 @@
-Kalyn Daugherty
