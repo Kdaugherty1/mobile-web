@@ -1,10 +1,12 @@
 * {
 	margin: 0px;
 	padding: 0px;
-}
+} /* sets the default of margin and padding to 0px */
 body {
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-image: url("..pre-assessment/img/bg-tile.jpg);
+  background-repeat: x-repeat;
 	background-color: #171717;
 	font-size: 16px;
 	line-height: 1.5em;
