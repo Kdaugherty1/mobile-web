@@ -1,9 +1,12 @@
+/*
+Resets margin padding on all elements to 0
+ */
 * {
 	margin: 0px;
 	padding: 0px;
 }
 body {
-	background-image: url("..pre-assessment/css/screen.css");
+	background-image: url("../img/screen.css");
     background-repeat: repeat-x;
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
