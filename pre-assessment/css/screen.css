@@ -27,7 +27,7 @@ body {
 }
 #header h1 a {
 	background-image: url(../img/assessment-1.jpg);
-	background-size: cover;
+	display:block;
 }
 #nav {
 	background-color: #000;
