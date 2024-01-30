@@ -41,6 +41,7 @@ html {
   .header {
     color: #FF69B4;
     font-size: 100px;
+    text-align: center;
     text-shadow:4px 4px white;
   }
   footer {
