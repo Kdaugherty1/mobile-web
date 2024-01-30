@@ -25,6 +25,11 @@ html {
     background-size: cover;
     background-position: center;
   }
+  .header {
+    color: #FF69B4;
+    font-size: 100px;
+    text-shadow:4px 4px white;
+  }
   footer {
     font-size: 20px;
     text-align: center;
