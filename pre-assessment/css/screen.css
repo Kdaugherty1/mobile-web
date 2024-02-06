@@ -79,6 +79,9 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+.highlight-yellow{
+	background-color: yellow;
+}
 #footer {
 	background-color: #000;
 	color: #FFF;
