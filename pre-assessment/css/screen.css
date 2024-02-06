@@ -29,6 +29,9 @@ body {
 	background-image: url("../img/assessment-1.jpg");
 	display:block;
 	height: 140px;
+	text-indent: 100%;
+	white-space: nowrap; /* stay on same line */
+	overflow: hidden;
 }
 #nav {
 	background-color: #000;
