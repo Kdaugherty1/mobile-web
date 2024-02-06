@@ -6,7 +6,7 @@ Resets margin padding on all elements to 0
 	padding: 0px;
 }
 body {
-	background-image: url("../img/screen.css");
+	background-image: url("../img/bg-tile.jpg");
     background-repeat: repeat-x;
 	text-align: center;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
