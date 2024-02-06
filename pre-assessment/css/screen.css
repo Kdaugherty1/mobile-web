@@ -33,6 +33,9 @@ body {
 	white-space: nowrap; /* stay on same line */
 	overflow: hidden;
 }
+.alert {
+	background: red;
+}
 #nav {
 	background-color: #000;
 }
