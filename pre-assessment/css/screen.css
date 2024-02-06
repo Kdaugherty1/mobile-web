@@ -28,6 +28,7 @@ body {
 #header h1 a {
 	background-image: url("../img/assessment-1.jpg");
 	display:block;
+	height: 140px;
 }
 #nav {
 	background-color: #000;
