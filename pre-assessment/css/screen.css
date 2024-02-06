@@ -79,6 +79,15 @@ body {
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
+.favorite-site a:link{
+	color:bisque;
+}
+.favorite-site a:visited{
+	color:aquamarine;
+}
+.favorite-site a:hover{
+	color:cornflowerblue;
+}
 .highlight-yellow{
 	background-color: yellow;
 }
