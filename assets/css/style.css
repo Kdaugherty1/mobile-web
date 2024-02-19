@@ -12,43 +12,5 @@ html {
     margin:auto;
   
   }
-  img {
-    max-width: 100%;
-    height: auto;
-  }
- 
-    main{
-      background-color:#ffffff;
-      width:80vw;
-      /* Long form */
-      margin-top:40px;
-      margin-right:auto;
-      margin-bottom:40px;
-      margin-left:auto;
-      /* 4 Value Shorthand T,R,B,L*/
-      margin:40px auto 40px auto;
-      /* 2 Value Shorthand T/B, L/R*/
-      margin:40px auto;
-      border:2px solid #FFA07A;
-      border-radius:4px;
-    }
-  body {
-    background-image: url("../img/background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
-  .header {
-    color: #FF69B4;
-    font-size: 100px;
-    text-align: center;
-    text-shadow:4px 4px white;
-  }
-  footer {
-    font-size: 20px;
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
+
+    
