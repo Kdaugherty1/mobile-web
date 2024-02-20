@@ -1,0 +1,57 @@
+/* Color Scheme 
+#26547c
+#ef476f
+#ffd166
+#06d6a0
+*/
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  .cf:before,
+  .cf:after {
+      content: " "; /* 1 */
+      display: table; /* 2 */
+  }
+  
+  .cf:after {
+      clear: both;
+  }
+  
+  main{
+    margin: 20px auto;
+    border: 10px solid #26547c;
+  }
+  
+  header.primary, footer.primary{
+    width: 96%;
+    background: #06d6a0;
+    margin:2.0833%;
+    padding: 10px;
+    float:left;
+    border: 10px #26547c;
+  }
+  
+  .post {
+    background: #ef476f;
+    width: 96%;
+    margin-right: 2%;
+    padding:10px;
+    float:right;
+    border: 10px #26547c;
+    
+  }
+  
+  aside{
+    background: #ffd166;
+    width: 96%;
+    margin-left: 2%;
+    padding:10px;
+    float:left;
+  }

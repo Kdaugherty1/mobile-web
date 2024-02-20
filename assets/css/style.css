@@ -12,5 +12,16 @@ html {
     margin:auto;
   
   }
-
+  main{
+    margin: 20px auto;
+    border: 10px solid #26547c;
+  }
+  header, footer{
+    width: 96%;
+    background: #06d6a0;
+    margin:2.0833%;
+    padding: 10px;
+    float:left;
+    border: 10px #26547c;
+  }
     
