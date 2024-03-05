@@ -18,7 +18,7 @@ img {
 
 /* ------ Utility Classes  -------*/
 .container {
-  width: 420px; /* Design Time */
+  width: 680px; /* Design Time */
   margin: 0 auto;
   background: #B2d1c9;
 }
@@ -221,4 +221,43 @@ main{
     "education"
     "experience"
     ;
+}
+
+/*------- Media Queries -------------- */
+
+@media screen and (min-width:768px){
+
+        main.container{
+          grid-template-columns: 36.5% auto;
+          grid-template-areas:
+            "title title"
+            "about about"
+            "skills experience"
+            "....... education"
+        }
+
+
+/* Nested Grid */
+
+#about{
+  display:grid;
+  grid-template-columns: 300px 1fr auto;
+  gap: 2em;
+  grid-template-areas:
+    "bio details details"
+    "related related related"
+}
+.bio{
+  grid-area:bio;
+}
+.details{
+  grid-area:details;
+}
+.related-links{
+  grid-area:related;
+  border-bottom: 1px solid #999;
+  padding-bottom: 50px;
+}
+dl{
+  grid-template: repeat(8,auto) / 8em 1fr;
 }
