@@ -93,7 +93,6 @@ main h1 {
   font-weight: 700;
   font-variant: small-caps;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  text-size-adjust: ;
 }
 main h1:before,
 main h1:after {
@@ -163,12 +162,6 @@ dd {
   background: rgba(0, 0, 0, 0.95);
 }
 
-.related-links li {
-
-}
-
-#skills {
-}
 #skills li {
   list-style-type: disc;
 }
@@ -260,4 +253,5 @@ main{
 }
 dl{
   grid-template: repeat(8,auto) / 8em 1fr;
+}
 }
