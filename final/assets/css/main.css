@@ -2,17 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 
-	html, body, div, span, applet, object,
-	iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-	pre, a, abbr, acronym, address, big, cite,
-	code, del, dfn, em, img, ins, kbd, q, s, samp,
-	small, strike, strong, sub, sup, tt, var, b,
-	u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-	form, label, legend, table, caption, tbody,
-	tfoot, thead, tr, th, td, article, aside,
-	canvas, details, embed, figure, figcaption,
-	footer, header, hgroup, menu, nav, output, ruby,
-	section, summary, time, mark, audio, video {
+	* {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -28,6 +18,7 @@
 
 	body {
 		line-height: 1;
+		
 	}
 
 	ol, ul {
@@ -2839,22 +2830,22 @@
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e89980;
-			color: #ffffff !important;
+			background-color: #FF6701;
+			
 		}
 
 			input[type="submit"].primary:hover,
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #ecaa96;
+				background-color: #FF6701;
 			}
 
 			input[type="submit"].primary:active,
 			input[type="reset"].primary:active,
 			input[type="button"].primary:active,
 			.button.primary:active {
-				background-color: #e4886a;
+				background-color: #FF6701;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2922,7 +2913,7 @@
 	}
 
 	#header {
-		background: #444;
+		background: #1001B0;
 		color: #bbb;
 		cursor: default;
 		height: 3.25em;
@@ -3152,13 +3143,11 @@
 /* Banner */
 
 	#banner {
-		background-attachment: scroll,							fixed;
-		background-color: #666;
-		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
-		background-position: top left,						center center;
-		background-repeat: repeat,							no-repeat;
-		background-size: auto,							cover;
-		color: #fff;
+		background-attachment: scroll,fixed;
+		background-image: url("../img/Kohens Park/park4.jpeg");
+		background-position: top left,center center;
+		background-repeat: no-repeat;
+		background-size: cover;
 		padding: 12em 0 20em 0;
 		text-align: center;
 	}
@@ -3211,8 +3200,7 @@
 			#banner input[type="reset"].primary,
 			#banner input[type="button"].primary,
 			#banner .button.primary {
-				background: #fff;
-				color: #666 !important;
+				background: #FF6701;
 			}
 
 /* Main */
@@ -3294,7 +3282,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #FF6701;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
