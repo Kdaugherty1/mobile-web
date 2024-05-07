@@ -922,7 +922,7 @@
 
 		@media screen and (max-width: 980px) {
 
-			.row {
+		 .row {
 				display: flex;
 				flex-wrap: wrap;
 				box-sizing: border-box;
@@ -2338,7 +2338,7 @@
 		}
 
 		.icon.major {
-			background: #666;
+			background: #01BF94;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2456,6 +2456,7 @@
 			cursor: default;
 			list-style: none;
 			padding-left: 0;
+			text-align: center;
 		}
 
 			ul.icons li {
@@ -3194,19 +3195,6 @@
 		padding: 2em 0 3em 0;;
 		color: white;
 	}
-
-		#footer .icons a {
-			-moz-transition: opacity 0.2s ease-in-out;
-			-webkit-transition: opacity 0.2s ease-in-out;
-			-ms-transition: opacity 0.2s ease-in-out;
-			transition: opacity 0.2s ease-in-out;
-			opacity: 0.35;
-		}
-
-			#footer .icons a:hover {
-				opacity: 0.75;
-			}
-
 		#footer .copyright {
 			color: white;
 			font-size: 0.9em;
@@ -3565,7 +3553,7 @@
 			.box {
 				margin: 1em;
 				overflow-x: hidden;
-				padding: 2em 2em !important;
+				padding: 2em 2em;
 			}
 
 				.box.features .features-row {
@@ -3575,17 +3563,17 @@
 
 					.box.features .features-row section {
 						border: 0;
-						border-top: solid 1px #e5e5e5 !important;
+						border-top: solid 1px #e5e5e5;
 						float: none;
-						margin: 2em 0 0 0 !important;
-						padding: 2em 0 0 0 !important;
+						margin: 2em 0 0 0;
+						padding: 2em 0 0 0;
 						width: 100%;
 					}
 
 					.box.features .features-row:first-child section:first-child {
-						border-top: 0 !important;
-						margin-top: 0 !important;
-						padding-top: 0 !important;
+						border-top: 0;
+						margin-top: 0;
+						padding-top: 0;
 					}
 
 				.box .image.featured {
@@ -3657,7 +3645,7 @@
 
 	}
 
-/* Mobile (Portrait) */
+/* Mobile */
 
 	@media screen and (max-width: 480px) {
 
@@ -3696,7 +3684,7 @@
 
 					ul.actions li > * {
 						width: 100%;
-						margin: 0 !important;
+						margin: 0;
 					}
 
 						ul.actions li > *.icon:before {
@@ -3717,12 +3705,12 @@
 				border-radius: 0;
 				box-shadow: none;
 				margin: 1em 0 0 0;
-				padding: 3em 1em !important;
+				padding: 3em 1em;
 			}
 
 				.box.features .features-row section {
-					margin: 3em 0 0 0 !important;
-					padding: 3em 0 0 0 !important;
+					margin: 3em 0 0 0;
+					padding: 3em 0 0 0;
 				}
 
 				.box .image.featured {
